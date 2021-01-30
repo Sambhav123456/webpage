@@ -35,7 +35,7 @@ nav div:hover{
 }
 /* making welcome section */
 #welcome-section{
-    width: 100%;
+    width: 100vh;
     height: 100vh;
     background-color: black;
     font-size:50px;
