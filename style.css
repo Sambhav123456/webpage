@@ -153,6 +153,9 @@ footer a:hover{
     #nav{
         font-size: 25px;
     }
+    footer div{
+        font-size: small;
+    }
     #image1{
         width: 350px;
         height: 300px;
