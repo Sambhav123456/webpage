@@ -154,7 +154,10 @@ footer a:hover{
         font-size: 25px;
     }
     #quote{
-        font-size: 10px;
+        font-size: 15px;
+    }
+    #quote2{
+        font-size: 15px;
     }
     #image1{
         width: 350px;
