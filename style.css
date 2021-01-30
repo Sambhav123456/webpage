@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+}
+/* making navbar */
+nav{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: brown;
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: repeat(7,0.8fr);
+    grid-column-gap: 5px;
+    align-items: center;
+    font-size: 20px;
+    /* height: 10%; */
+}
+#div0{
+    grid-column:1/5;
+    display: grid;
+    justify-content: center;
+}
+/* providing border */
+nav div{
+    border: 1px solid black;
+    text-align: center;
+}
+/* providing hover feature */
+nav div:hover{
+    background-color: red;
+}
+/* making 1st intro section */
+.section1{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    font-size:50px;
+    text-align: center;
+}
+.section1 div{
+    position: relative;
+    top: 30%;
+}
+#rb{
+    font-weight: bold;
+}
+#by{
+    color: chocolate;
+}
+/* making second section */
+.section2{
+    width: 100%;
+    display: grid;
+    /* using grid to make my section responsive */
+    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit,minmax(300px,350px));
+    /* centralising my content */
+    justify-content: center;
+    justify-items: center;
+    background-color: darkblue;
+}
+p{
+    margin: 10px 0 10px 0;
+    background-image: url(gandhi.jfif);
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    font-size: x-large;
+}
+/* making footer */
+footer{
+    display: grid;
+    margin-right: 10px;
+    grid-template-columns: 10% 80% 10%;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+}
+#quote{
+    text-align: center;
+}
+/* using media queries to increase the size of responsive image */
+@media(max-width:716px){
+    p{
+        width: 350px;
+        height: 300px;
+        background-size: 100% 300px;
+    }
+}
