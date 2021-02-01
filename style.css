@@ -14,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(7,0.8fr);
     grid-column-gap: 5px;
-    height:auto;
+    height: auto;
     font-size: 25px;
     text-align: center;
 }
@@ -80,7 +80,7 @@ nav div:hover{
 }
 #image2{
     margin: 10px 0 10px 0;
-    background-image: url(gandhi.jfif);
+    background-image: url(survey.JPG);
     background-size: 100% 200px;
     background-repeat: no-repeat;
     width: 300px;
